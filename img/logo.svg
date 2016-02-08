@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="215px" height="40px" viewBox="0 0 215 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="home" sketch:type="MSArtboardGroup" transform="translate(-25.000000, -14.000000)">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(22.000000, -11.000000)">
+                <g>
+                    <path d="M6.80237193,42.6957939 L51.8640411,26.411215 L51.8640411,64.728972 L6.24289384,64.728972 L6.80237193,42.6957939 Z" id="Rectangle-12" stroke="#000000" fill="#000000" sketch:type="MSShapeGroup"></path>
+                    <text id="m" sketch:type="MSTextLayer" font-family="Futura" font-size="48.4480423" font-weight="420" line-spacing="105" fill="#EAEAEA">
+                        <tspan x="0" y="64">m</tspan>
+                    </text>
+                    <text id="A" sketch:type="MSTextLayer" font-family="Futura" font-size="48.4480423" font-weight="420" line-spacing="105" fill="#EAEAEA">
+                        <tspan x="34.0958048" y="64">A</tspan>
+                    </text>
+                    <text id="MotoAssist" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="30" font-weight="260" line-spacing="68" fill="#000000">
+                        <tspan x="80" y="29">MotoAssist</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

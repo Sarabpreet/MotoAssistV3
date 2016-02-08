@@ -1,0 +1,867 @@
+/*!
+* Bootstrap v3.3.6 (http://getbootstrap.com)
+* Copyright 2011-2015 Twitter, Inc.
+* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+*/
+//
+// Load core variables and mixins
+// --------------------------------------------------
+@import "variables.less";
+@import "mixins.less";
+//
+// Buttons
+// --------------------------------------------------
+// Common styles
+.btn-default,
+.btn-primary,
+.btn-success,
+.btn-info,
+.btn-warning,
+.btn-danger {
+  text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+  @shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 1px rgba(0,0,0,.075);
+  .box-shadow(@shadow);
+// Reset the shadow
+&:active,
+&.active {
+  .box-shadow(inset 0 3px 5px rgba(0,0,0,.125));
+}
+&.disabled,
+&[disabled],
+fieldset[disabled] & {
+  .box-shadow(none);
+}
+.badge {
+  text-shadow: none;
+}
+}
+// Mixin for generating new styles
+.btn-styles(@btn-color: #555) {
+  #gradient > .vertical(@start-color: @btn-color; @end-color: darken(@btn-color, 12%));
+.reset-filter(); // Disable gradients for IE9 because filter bleeds through rounded corners; see https://github.com/twbs/bootstrap/issues/10620
+background-repeat: repeat-x;
+border-color: darken(@btn-color, 14%);
+&:hover,
+&:focus  {
+  background-color: darken(@btn-color, 12%);
+  background-position: 0 -15px;
+}
+&:active,
+&.active {
+  background-color: darken(@btn-color, 12%);
+  border-color: darken(@btn-color, 14%);
+}
+&.disabled,
+&[disabled],
+fieldset[disabled] & {
+  &,
+  &:hover,
+  &:focus,
+  &.focus,
+  &:active,
+  &.active {
+    background-color: darken(@btn-color, 12%);
+    background-image: none;
+  }
+}
+}
+// Common styles
+.btn {
+// Remove the gradient for the pressed/active state
+&:active,
+&.active {
+  background-image: none;
+}
+}
+// Apply the mixin to the buttons
+.btn-default { .btn-styles(@btn-default-bg); text-shadow: 0 1px 0 #fff; border-color: #ccc; }
+.btn-primary { .btn-styles(@btn-primary-bg); }
+.btn-success { .btn-styles(@btn-success-bg); }
+.btn-info    { .btn-styles(@btn-info-bg); }
+.btn-warning { .btn-styles(@btn-warning-bg); }
+.btn-danger  { .btn-styles(@btn-danger-bg); }
+//
+// Images
+// --------------------------------------------------
+.thumbnail,
+.img-thumbnail {
+  .box-shadow(0 1px 2px rgba(0,0,0,.075));
+}
+//
+// Dropdowns
+// --------------------------------------------------
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  #gradient > .vertical(@start-color: @dropdown-link-hover-bg; @end-color: darken(@dropdown-link-hover-bg, 5%));
+  background-color: darken(@dropdown-link-hover-bg, 5%);
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  #gradient > .vertical(@start-color: @dropdown-link-active-bg; @end-color: darken(@dropdown-link-active-bg, 5%));
+  background-color: darken(@dropdown-link-active-bg, 5%);
+}
+//
+// Navbar
+// --------------------------------------------------
+// Default navbar
+.navbar-default {
+  #gradient > .vertical(@start-color: lighten(@navbar-default-bg, 10%); @end-color: @navbar-default-bg);
+.reset-filter(); // Remove gradient in IE<10 to fix bug where dropdowns don't get triggered
+border-radius: @navbar-border-radius;
+@shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 5px rgba(0,0,0,.075);
+.box-shadow(@shadow);
+.navbar-nav > .open > a,
+.navbar-nav > .active > a {
+  #gradient > .vertical(@start-color: darken(@navbar-default-link-active-bg, 5%); @end-color: darken(@navbar-default-link-active-bg, 2%));
+  .box-shadow(inset 0 3px 9px rgba(0,0,0,.075));
+}
+}
+.navbar-brand,
+.navbar-nav > li > a {
+  text-shadow: 0 1px 0 rgba(255,255,255,.25);
+}
+// Inverted navbar
+.navbar-inverse {
+  #gradient > .vertical(@start-color: lighten(@navbar-inverse-bg, 10%); @end-color: @navbar-inverse-bg);
+.reset-filter(); // Remove gradient in IE<10 to fix bug where dropdowns don't get triggered; see https://github.com/twbs/bootstrap/issues/10257
+border-radius: @navbar-border-radius;
+.navbar-nav > .open > a,
+.navbar-nav > .active > a {
+  #gradient > .vertical(@start-color: @navbar-inverse-link-active-bg; @end-color: lighten(@navbar-inverse-link-active-bg, 2.5%));
+  .box-shadow(inset 0 3px 9px rgba(0,0,0,.25));
+}
+.navbar-brand,
+.navbar-nav > li > a {
+  text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+}
+}
+// Undo rounded corners in static and fixed navbars
+.navbar-static-top,
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  border-radius: 0;
+}
+// Fix active state of dropdown items in collapsed mode
+@media (max-width: @grid-float-breakpoint-max) {
+  .navbar .navbar-nav .open .dropdown-menu > .active > a {
+    &,
+    &:hover,
+    &:focus {
+      color: #fff;
+      #gradient > .vertical(@start-color: @dropdown-link-active-bg; @end-color: darken(@dropdown-link-active-bg, 5%));
+    }
+  }
+}
+// Alerts
+// --------------------------------------------------
+// Common styles
+.alert {
+  text-shadow: 0 1px 0 rgba(255,255,255,.2);
+  @shadow: inset 0 1px 0 rgba(255,255,255,.25), 0 1px 2px rgba(0,0,0,.05);
+  .box-shadow(@shadow);
+}
+// Mixin for generating new styles
+.alert-styles(@color) {
+  #gradient > .vertical(@start-color: @color; @end-color: darken(@color, 7.5%));
+  border-color: darken(@color, 15%);
+}
+// Apply the mixin to the alerts
+.alert-success    { .alert-styles(@alert-success-bg); }
+.alert-info       { .alert-styles(@alert-info-bg); }
+.alert-warning    { .alert-styles(@alert-warning-bg); }
+.alert-danger     { .alert-styles(@alert-danger-bg); }
+//
+// Progress bars
+// --------------------------------------------------
+// Give the progress background some depth
+.progress {
+  #gradient > .vertical(@start-color: darken(@progress-bg, 4%); @end-color: @progress-bg)
+}
+// Mixin for generating new styles
+.progress-bar-styles(@color) {
+  #gradient > .vertical(@start-color: @color; @end-color: darken(@color, 10%));
+}
+// Apply the mixin to the progress bars
+.progress-bar            { .progress-bar-styles(@progress-bar-bg); }
+.progress-bar-success    { .progress-bar-styles(@progress-bar-success-bg); }
+.progress-bar-info       { .progress-bar-styles(@progress-bar-info-bg); }
+.progress-bar-warning    { .progress-bar-styles(@progress-bar-warning-bg); }
+.progress-bar-danger     { .progress-bar-styles(@progress-bar-danger-bg); }
+// Reset the striped class because our mixins don't do multiple gradients and
+// the above custom styles override the new `.progress-bar-striped` in v3.2.0.
+.progress-bar-striped {
+  #gradient > .striped();
+}
+//
+// List groups
+// --------------------------------------------------
+.list-group {
+  border-radius: @border-radius-base;
+  .box-shadow(0 1px 2px rgba(0,0,0,.075));
+}
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus {
+  text-shadow: 0 -1px 0 darken(@list-group-active-bg, 10%);
+  #gradient > .vertical(@start-color: @list-group-active-bg; @end-color: darken(@list-group-active-bg, 7.5%));
+  border-color: darken(@list-group-active-border, 7.5%);
+  .badge {
+    text-shadow: none;
+  }
+}
+//
+// Panels
+// --------------------------------------------------
+// Common styles
+.panel {
+  .box-shadow(0 1px 2px rgba(0,0,0,.05));
+}
+// Mixin for generating new styles
+.panel-heading-styles(@color) {
+  #gradient > .vertical(@start-color: @color; @end-color: darken(@color, 5%));
+}
+// Apply the mixin to the panel headings only
+.panel-default > .panel-heading   { .panel-heading-styles(@panel-default-heading-bg); }
+.panel-primary > .panel-heading   { .panel-heading-styles(@panel-primary-heading-bg); }
+.panel-success > .panel-heading   { .panel-heading-styles(@panel-success-heading-bg); }
+.panel-info > .panel-heading      { .panel-heading-styles(@panel-info-heading-bg); }
+.panel-warning > .panel-heading   { .panel-heading-styles(@panel-warning-heading-bg); }
+.panel-danger > .panel-heading    { .panel-heading-styles(@panel-danger-heading-bg); }
+//
+// Wells
+// --------------------------------------------------
+.well {
+  #gradient > .vertical(@start-color: darken(@well-bg, 5%); @end-color: @well-bg);
+  border-color: darken(@well-bg, 10%);
+  @shadow: inset 0 1px 3px rgba(0,0,0,.05), 0 1px 0 rgba(255,255,255,.1);
+  .box-shadow(@shadow);
+}
+//custom styling (sarabpreet.rajpal@credr.com)
+.container-fluid .top-header{
+}
+.header{
+  /* Mask: */
+  background-image: linear-gradient(-152deg, #000000 11%, #082526 100%);
+  background-image: url("../img/bg.jpg");
+  text-align: center;
+  overflow: hidden;
+  h1{
+    /* All your four-wheele: */
+    font-family: Roboto;
+    font-size: 48px;
+    color: #FFFFFF;
+    line-height: 72px;
+    text-align:center;
+    margin-top: 180px;
+  }
+  h2{
+
+    font-size:36px;
+    color: #FFFFFF;
+    text-align:center;
+    margin-top: 30px;
+    font-weight: 00;
+  }
+}
+.top-header { 
+
+  a  .logo{
+    color:black;
+    font-family:"Helvetica Neue";
+    font-weight:200;
+    font-size: 30px;
+    padding:12px 0px;
+  }
+  background:white;
+  nav {
+    padding:30px 20px 0px 0px;
+    text-align: right;
+  }
+  nav ul li{
+    font-family: "Roboto";
+    list-style: none;
+    display: inline-block;
+    padding-right:10px;
+    margin-right:40px;
+    font-weight: 500;
+  }
+  nav ul li a {
+    font-size: @font-size-large;
+    color: #555555;
+    line-height: 15px;
+    text-transform: uppercase;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+}
+.header {
+  // .shade{
+  //   display:none;
+  //   position:relative;
+  //   top:-43px;
+  //   width: 50%;
+  //   height:100px;
+  //   margin: 0 auto;
+  //   z-index:0;
+  //   opacity: 0.33;
+  //   background: #000000;
+  // }
+  ul.button-home {
+  }
+  ul.button-home li{
+    position: relative;
+    z-index:8;
+    margin:80px 35px 0px;
+    display: inline-block;
+    font-size: @font-size-h4;
+    line-height: 26px;
+    a{
+      color: #084C61;
+      background: #D8D8D8;
+      text-transform: uppercase;
+      border: 2px solid #FFFFFF;
+      padding:20px 80px;
+      font-weight: bold;
+    }
+    a:hover{
+      text-decoration: none;
+    }
+  }
+}
+.compress{
+  width: 60%;
+  background:green;
+  margin: 80px auto 65px;
+  background: url("../img/opacity.png");
+  padding:8px 0px;
+  li{
+    list-style: none;
+    font-size: @font-size-h4;
+    color: #084C61;
+    line-height: 26px;
+  }
+  a {
+    font-size: 26px;
+    color: #084C61;
+    margin:10px 0px;
+    line-height: 68px;
+    display: block;
+
+    height:68px;
+    background: #D8D8D8;
+    border: 2px solid #FFFFFF;
+    font-weight: 500;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+}
+.content {
+
+  padding:0px 0px 40px;
+  text-align: center;
+  h2 {
+
+    position: relative;
+    margin:100px 0px 70px;
+    text-transform: uppercase;
+    background:#F0F0F0;
+    display: inline-block;
+    padding: 0 20px;
+    z-index:10;
+    /* OUR UNMATCHED SERVIC: */
+
+font-size:36px;
+color: #084C61;
+line-height: 36px;
+  }
+
+  .border-h2 {
+  top:-90px;
+  position: relative;
+  height:2px;
+  width: 100%;
+  display:block;
+  background:#084C61;
+}
+
+
+  .cardwa{
+    background: #FEFEFE;
+    box-shadow: 0px -2px 4px 0px rgba(0,0,0,0.25);
+    border-radius: 6px;
+    padding:5px 10px 25px;
+    margin:20px -8px;
+    h2{
+      background:transparent;
+      margin:15px 0px 0px;
+      font-size: @font-size-h4 !important;
+      color: #177E89;
+      line-height: 45px;
+      text-transform: capitalize;
+      padding:0px;
+    }
+      img {
+        margin-top: 10px;
+        height:80px;
+      }
+      
+
+      p.price{
+              font-weight: 300;
+              font-size: 14px;
+              margin:35px 0px 10px;
+              text-transform: capitalize;
+          
+      }
+
+    
+
+      a{
+        display: inline-block; 
+        text-transform: uppercase;
+        padding:10px 70px;
+        color:#323031;
+        border-radius: 2px;
+        background:#FFC857;
+        font-size:@font-size-large;
+        font-weight:400;
+      }
+
+      a:hover{
+
+        text-decoration: none;
+      }
+
+  p{
+          /* Lorem Ipsum, Lorem I: */
+
+
+      color: #4A4A4A;
+      line-height: 21px;
+      margin:10px;
+      font-weight:100;
+
+
+  }
+
+  .big{
+  font-weight:500px;
+  font-size: @font-size-large;
+
+} 
+
+
+}
+}
+
+
+.how {
+
+    padding:0px 0px;
+    background:#FFFFFF;
+    text-align: center;
+
+    h2 {
+    position: relative;
+    margin:80px 0px 80px 0px;
+    text-transform: uppercase;
+    background:#ffffff;
+    display: inline-block;
+    padding: 0 50px;
+    z-index:10;
+    font-size:36px;
+    color: #084C61;
+    line-height: 36px;
+    font-weight: 200;
+  }
+
+  .border-h2 {
+  top:-90px;
+  position: relative;
+  height:2px;
+  width: 100%;
+  display:block;
+  background:#084C61;
+}
+        p{
+
+          text-transform: uppercase;
+          margin-top: 20px;
+          font-size: @font-size-large;
+        }
+.high{
+
+
+  font-size: 42px;
+
+
+}
+ .yellow {
+
+    color:#FCD581;
+  }
+   .blue{
+
+    color:#177E89;
+  }
+   .red{
+
+    color:#D52941;
+  }
+
+  .how-works-text p{
+  margin:20px auto;
+  text-transform:none;
+  font-size: @font-size-reg;
+
+  text-align: left;
+  color: rgba(68,68,68,0.66);
+  line-height: 26px;
+  font-weight: 200;
+}
+
+.how-works-text {
+
+margin-bottom:90px;
+}
+
+}
+
+.testi {
+  padding:100px 0px;
+  background:#FFC857;
+
+    p{
+
+    font-weight: 200;
+    font-size: @font-size-reg;
+
+    color: #333333;
+
+    }
+h2{
+margin:20px 0px;
+font-size: 24px;
+color: #333333;
+line-height: 21px;
+
+}
+
+}
+.footer {
+
+  h3 {
+    margin-top: 60px;
+    font-size: 50px;
+    font-weight: 300;
+  }
+  color:#ffffff;
+  background: #323031;
+  padding:60px 0px 400px;
+ul li {
+
+  list-style: none;
+  display: inline-block;
+  margin: 5px 50px;
+}
+
+
+ul li a{
+
+color:white;
+
+}
+
+a:hover{
+  text-decoration: none;
+}
+}
+
+
+.sidenav {
+
+    background: #F1F1F1;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.10);
+  
+}
+.sidenav ul {
+
+  margin-top: 0;
+margin-bottom: 10px;
+margin-left: -20px;
+}
+
+.sidenav ul li{
+
+  list-style: none;
+  margin:20px -20px;
+}
+
+.sidenav ul li a {
+
+font-size: @font-size-large;
+color: rgba(73,73,73,0.66);
+line-height: 30.56px;
+  
+  -webkit-transition: all 600ms ease;
+-moz-transition: all 600ms ease;
+-ms-transition: all 600ms ease;
+-o-transition: all 600ms ease;
+transition: all 600ms ease;
+}
+.sidenav ul li a:hover{
+
+  text-decoration: none;
+  color:black;
+}
+.sidenav ul li a img {
+
+ margin-right:10px;
+ width:20px;
+
+}
+.description-page{
+
+  margin-left:10px;
+  background: white;
+
+
+
+      h4 {
+      font-size: @font-size-large;
+      color: #4A4A4A;
+      line-height: 52.39px;
+
+
+
+      }
+
+    p{
+
+
+        font-size: @font-size-base;
+
+        color: rgba(73,73,73,0.66);
+        line-height: 30.56px;
+    }
+}
+.content-page {
+
+  padding:20px;
+}
+.page-content{
+  padding:10px 30px;
+
+
+
+}  
+.element {
+font-size: @font-size-base;
+  color: rgba(73,73,73,0.66);
+  line-height: 30.56px;
+ margin-left:-10px;    
+  border-bottom: 1px solid #F5F5F5;
+
+}
+
+
+.form {
+
+  /* Rectangle 5: */
+background: #323031;
+box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.33);
+
+
+h2 {
+font-size: @font-size-reg;
+color: #FFFFFF;
+line-height: 52.39px;
+
+}
+  
+
+  input {
+  color: rgba(255,255,255,0.41);
+border:0px;
+background:transparent;
+
+  }
+  input[type=text]{
+
+
+    color: rgba(255,255,255,0.41);
+    padding:10px 5px;
+    color:white;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid #979797;
+  }
+input[type=submit] {
+    display: block;
+   background: #FFC857;
+   margin: 20px auto;
+  font-size: @font-size-large;
+  color: #084C61;
+  line-height: 30.56px;
+  padding:5px 20px;
+  }
+  
+
+  
+}
+
+.carcare {
+    display: inline-block;
+    padding:10px 50px;
+    margin-top:42px;
+   margin-bottom: 10px;
+    text-transform: capitalize;
+    font-size: 48px;
+    color: #FFFFFF;
+    line-height: 55px;
+    border-bottom: 1px solid #AA8D4D;
+     img{
+     position: relative;
+     top:10px;
+
+    
+
+  }
+
+  
+}
+
+
+
+.pagec {
+  
+   margin-bottom: 50px;
+  
+  h2 {
+  text-align: center;
+  font-size:@font-size-h4;
+ margin-top: 10px;
+font-size: 22px;
+color: #FFFFFF;
+line-height: 26px;
+
+  
+}
+}
+
+
+.modala {
+
+  background:url("../img/modealthing/bg.png");
+  width:1100px;
+  height:679px; 
+  color:#312F30;
+
+
+  h2 {
+    font-size: 26px;
+    text-transform:capitalize;
+    color:white;
+    text-align:center;
+    .big {
+      
+      font-size: 48px;
+      font-weight: 100;
+      text-transform: uppercase;
+    }
+  }
+  
+  .col-lg-2 p {
+   
+    color:white;
+    font-size: 38px;
+    margin-top: 540px;
+    
+  }
+  .col-lg-10 {
+  
+  background:white;
+  position: relative;
+  right:-60px;
+  height:450px;
+  margin-top: 90px;
+  background: #959595;
+  background: #EEEEEE;
+  box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.50);
+}
+  
+  
+}
+
+
+.select-car {
+  text-align: center;
+  margin-top: 80px;
+  a{
+   color: #312F30;
+    -webkit-transition: all 600ms ease;
+-moz-transition: all 600ms ease;
+-ms-transition: all 600ms ease;
+-o-transition: all 600ms ease;
+transition: all 600ms ease;
+  }
+  
+  a:hover{
+    color:#DB3A34;
+    text-decoration: none;
+    
+  }
+  a:hover p {
+    
+    border-bottom: 2px solid #DB3A34;
+    -webkit-transition: all 600ms ease;
+-moz-transition: all 600ms ease;
+-ms-transition: all 600ms ease;
+-o-transition: all 600ms ease;
+transition: all 600ms ease;
+  }
+  p {
+    padding-bottom:10px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top:20px;
+    
+    -webkit-transition: all 600ms ease;
+-moz-transition: all 600ms ease;
+-ms-transition: all 600ms ease;
+-o-transition: all 600ms ease;
+transition: all 600ms ease;
+  
+
+  }
+}
+.select-car ul li {
+
+  display: inline-block;
+  padding:20px;
+
+}
+
+
+a:focus {
+  
+ border: none;
+  text-transform: none;
+}
+
+a:active {
+  
+text-transform: none;
+}
+  .price {
+         text-transform: capitalize;
+
+      }
+
+.table td a {
+
+  color:#4A4A4A;
+}
