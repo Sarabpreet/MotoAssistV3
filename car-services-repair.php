@@ -40,7 +40,7 @@
 
         <div id="sectionA" class="tab-pane fade in active">
 
-            <p>section A</p>
+            <p>Rs: 1299-1499</p>
 
 
 
