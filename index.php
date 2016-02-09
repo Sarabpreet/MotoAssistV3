@@ -47,7 +47,7 @@
           <div class="col-lg-4 col-md-4 col-lg-12">
             <div class="cardwa">
               <h2>Comprehensive Warranty</h2>
-              <p class="desc">Complete cover of any cost towards repair and replacement of parts..</p>
+              <p class="desc">Complete cover of any cost towards repair...</p>
               <img src="img/car-warranty.png" alt="">
               <p class="price">starting from <span class="big">699/-</span></p>
               <a href="comprehensive-warranty.php">book</a>
@@ -56,7 +56,7 @@
           <div class="col-lg-4 col-md-4 col-lg-12">
             <div class="cardwa">
               <h2>Roadside Assistance</h2>
-              <p class="desc">Your backup in-case of a breakdown in the middle of the night...</p>
+              <p class="desc">Your backup in-case of a breakdown at  night...</p>
               <img src="img/car-assistance.png" alt="">
               <p class="price">starting from <span class="big">850/-</span></p>
               <a href="roadside-assistance.php">book</a>
@@ -67,7 +67,7 @@
           <div class="col-lg-4 col-md-4 col-lg-12">
             <div class="cardwa">
               <h2>Loans</h2>
-              <p class="desc">Total assistance in securing a loan for your car at the best rates...</p>
+              <p class="desc">Total assistance in securing a loan for your car...</p>
               <img src="img/car-loans.png" alt="">
               <p class="price">-<span class="big"></span></p>
               <a href="loans.php">book</a>
@@ -85,7 +85,7 @@
           <div class="col-lg-4 col-md-4 col-lg-12">
             <div class="cardwa">
               <h2>Buy &amp; Sell</h2>
-              <p class="desc">something would go in here</p>
+              <p class="desc">easy buy and sell with verified owners and bike...</p>
               <img src="img/car-buy-sell.png" alt="">
               <p class="price">-<span class="big"></span></p>
               <a href="buy-sell.php">book</a>

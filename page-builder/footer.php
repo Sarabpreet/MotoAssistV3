@@ -45,7 +45,16 @@
           var model = $('#modelInput').val();
           var varient = $('#varientInput').val();
           
-       ref.push({model: model, detail:detail, name: name, text: text, email: email, make: make,varient:varient });
+     if(name!="" && text!="") {
+        ref.push({model: model, detail:detail, name: name, text: text, email: email, make: make,varient:varient });
+        
+        }
+
+    else {
+
+alert("These Fields are required.");
+
+    }
             $('#phoneInput').val('');
             $('#nameInput').val('');
             $('#emailInput').val('');

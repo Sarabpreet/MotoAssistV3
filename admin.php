@@ -1,3 +1,15 @@
+<?php 
+
+
+
+
+if(($_POST['username']=='mohit') && $_POST['password']=='motocredr') {
+
+
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,7 +51,8 @@
 			<th>Current Time </th>
 			<th>Email</th>
 			<th>Make</th>
-			<th>Year</th>
+			<th>model</th>
+			<th>varient</th>
 		</tr>
 	</thead>
 	<tbody id="tRow">
@@ -55,6 +68,32 @@
 
 </body>
 </html>
+
+<?php 
+}
+else {
+
+
+	echo "You are not authorized to view this page. sorry!";
+	}
+ ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -3,7 +3,7 @@ var ref = new Firebase('https://moto-assist-db.firebaseio.com/MotoAssist');
       
       ref.on('child_added', function(snapshot) {
           var message = snapshot.val();         
-          displayData(message.model, message.email, message.detail, message.name, message.text, message.make, message.varient);
+          displayData(message.model,  message.detail, message.name, message.text,message.email, message.make, message.varient);
         });
 
   function displayData(email, detail, name, text, make, varient, model) {
