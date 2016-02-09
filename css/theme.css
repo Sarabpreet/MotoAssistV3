@@ -1051,6 +1051,19 @@ a:active {
 }
 
 
+.form input {
+
+  display: block;
+  margin: 0 auto;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+
+
+
 .call{
 
   text-transform: uppercase;
