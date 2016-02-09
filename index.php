@@ -9,27 +9,27 @@
           <div class="col-lg-4 col-md-4 col-lg-12">
             <div class="cardwa">
               <h2>car detailing</h2>
-              <p class="desc">something would go in here</p>
+              <p class="desc">Get your car cleaned and looking as brand as new...</p>
               <img src="img/car-detail.png" alt="">
-              <p class="price">starting from <span class="big">500/-</span></p>
+              <p class="price">starting from <span class="big">650/-</span></p>
               <a href="car-detailing.php">book</a>
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-lg-12">
             <div class="cardwa">
               <h2>Car Services &amp; Repair</h2>
-              <p class="desc">something would go in here</p>
+              <p class="desc">General car servicing and repair at the workshop...</p>
               <img src="img/car-service.png" alt="">
-              <p class="price">starting from <span class="big">500/-</span></p>
+              <p class="price">starting from <span class="big">1299/-</span></p>
               <a href="car-services-repair.php">book</a>
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-lg-12">
             <div class="cardwa">
               <h2>Car Mech</h2>
-              <p class="desc">something would go in here</p>
+              <p class="desc"> Car service at your doorstep at your convenience...</p>
               <img src="img/car-mech.png" alt="" height="60px">
-              <p class="price">starting from <span class="big">500/-</span></p>
+              <p class="price">starting from <span class="big">1800/-</span></p>
               <a href="car-mech.php">book</a>
             </div>
           </div>
@@ -37,28 +37,28 @@
         <div class="row">
           <div class="col-lg-4 col-md-4 col-lg-12">
             <div class="cardwa">
-              <h2>Inspeection &amp; Valuation</h2>
-              <p class="desc">something would go in here</p>
+              <h2>Inspection &amp; Valuation</h2>
+              <p class="desc">Complete inspection and fair valuation of your car...</p>
               <img src="img/car-inspection.png" alt="">
-              <p class="price">starting from <span class="big">500/-</span></p>
+              <p class="price">starting from <span class="big">699/-</span></p>
               <a href="inspection-valuation.php">book</a>
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-lg-12">
             <div class="cardwa">
               <h2>Comprehensive Warranty</h2>
-              <p class="desc">something would go in here</p>
+              <p class="desc">Complete cover of any cost towards repair and replacement of parts..</p>
               <img src="img/car-warranty.png" alt="">
-              <p class="price">starting from <span class="big">500/-</span></p>
+              <p class="price">starting from <span class="big">699/-</span></p>
               <a href="comprehensive-warranty.php">book</a>
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-lg-12">
             <div class="cardwa">
               <h2>Roadside Assistance</h2>
-              <p class="desc">something would go in here</p>
+              <p class="desc">Your backup in-case of a breakdown in the middle of the night...</p>
               <img src="img/car-assistance.png" alt="">
-              <p class="price">starting from <span class="big">500/-</span></p>
+              <p class="price">starting from <span class="big">850/-</span></p>
               <a href="roadside-assistance.php">book</a>
             </div>
           </div>
@@ -67,7 +67,7 @@
           <div class="col-lg-4 col-md-4 col-lg-12">
             <div class="cardwa">
               <h2>Loans</h2>
-              <p class="desc">something would go in here</p>
+              <p class="desc">Total assistance in securing a loan for your car at the best rates...</p>
               <img src="img/car-loans.png" alt="">
               <p class="price">-<span class="big"></span></p>
               <a href="loans.php">book</a>
@@ -76,7 +76,7 @@
           <div class="col-lg-4 col-md-4 col-lg-12">
             <div class="cardwa">
               <h2>Insuarance</h2>
-              <p class="desc">something would go in here</p>
+              <p class="desc"> Get the best insurance cover at the lowest premiums...</p>
               <img src="img/car-insuarance.png" alt="">
               <p class="price">-<span class="big"></span></p>
               <a href="insuarance.php">book</a>

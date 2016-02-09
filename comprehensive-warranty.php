@@ -30,8 +30,29 @@
 
 <h4>Pricing</h4>
 
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Hatchback</th>
+        <th>Sedan</th>
+        <th>SUV / MUV</th>
+        <th>Premium</th>
 
+        
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>Rs. 4300</td>
+          <td>Rs. 5000</td>
+          <td>Rs. 5500</td>
+          <td>Rs. - </td>
+        </tr>
+        
+     </tbody>
+  </table>
 
+<!-- 
     <ul class="nav nav-tabs">
 
         <li class="active"><a data-toggle="tab" href="#sectionA">Hatchback</a></li>
@@ -66,7 +87,7 @@
 
  
 
-    </div>
+    </div> -->
 
 
 
@@ -147,7 +168,7 @@ cooling fan motor, thermostat, switch, oil Pressure switch, temperature gauge, f
 
 <h4>WARRANTY SHALL NOT APPLY TO:</h4>
 <ol>
-	
+  
 
 <li>Normal maintenance services and services involving replacement of parts. </li>
 

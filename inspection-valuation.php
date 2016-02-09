@@ -26,8 +26,30 @@
         
         
 <h4>Pricing</h4>
+   <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Hatchback</th>
+        <th>Sedan</th>
+        <th>SUV / MUV</th>
+        <th>Premium</th>
+
+        
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>Rs.699 </td>
+          <td>Rs. 899</td>
+          <td>Rs. 999</td>
+          <td>Rs. 1399 </td>
+        </tr>
+        
+     </tbody>
+  </table>
 
 
+<!-- 
 
     <ul class="nav nav-tabs">
 
@@ -67,7 +89,7 @@
 
  
 
-    </div>
+    </div> -->
 
 
 

@@ -28,7 +28,30 @@
 
 
 
-    <ul class="nav nav-tabs">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Hatchback</th>
+        <th>Sedan</th>
+        <th>SUV / MUV</th>
+        <th>Premium</th>
+
+        
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>Rs.1299-1499 </td>
+          <td>Rs. 1699-1899</td>
+          <td>Rs. 1699-1899</td>
+          <td>Rs. 2599 </td>
+        </tr>
+        
+     </tbody>
+  </table>
+
+
+    <!-- <ul class="nav nav-tabs">
 
         <li class="active"><a data-toggle="tab" href="#sectionA">Hatchback</a></li>
         <li><a data-toggle="tab" href="#sectionB">Sedan</a></li>
@@ -68,7 +91,7 @@
  
 
     </div>
-
+ -->
 
 
 

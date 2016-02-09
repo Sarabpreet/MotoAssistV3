@@ -9,8 +9,9 @@
                     <input id='phoneInput' type="text"  placeholder='Phone Number'>
                     <input id='emailInput' type="text" placeholder='Email'>
                     <input id='makeInput' type="text" placeholder='Make'>
-                    <input id='yearInput' type="text" placeholder='Year'>
-                    <input id="btnInput" type="Submit" onclick="sendData()">
+                    <input id='varientInput' type="text" placeholder='Varient'>
+                      <input id='modelInput' type="text" placeholder='model no'>
+                    <input id="btnInput" type="Submit" onclick="sendData()" value="Request">
                   </div>
               </form>
 

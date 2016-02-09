@@ -8,5 +8,6 @@
                     <li><a href="car-services-repair.php"><img src="img/page-icons/1454352672_find_car.png" alt="">Car Services &amp; Repairs</a></li>
                     <li><a href="car-detailing.php"><img src="img/page-icons/1454352819_architecture-interior-10.png" alt="">Car Detailing</a></li>
                     <li><a href="inspection-valuation.php"><img src="img/page-icons/noun_59149_cc.png" alt="">Inspection &amp; Valuation</a></li>
+                    <li><a href="buy-sell.php"><img src="img/page-icons/1454348971_Business_icon-55.png" alt="">Buy &amp; Sell</a></li>
                   </ul>
            </div>

@@ -22,9 +22,8 @@
           <h4><?php  echo "$title"; ?></h4>
   
 <p>We offer comprehensive insurance for New, Renewal and Breaking cases from leading insurance companies. We even provide a complimentary Road Side Assistance service free along with the insurance along with discounts on various MotoAssist services.</p>
-            <h4>How it works?</h4>
-
-
+           
+            <h4 class="text-center">How it works?</h4>
 
 <h4>
 In case of New / Renewal policy </h4>

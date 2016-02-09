@@ -42,18 +42,21 @@
           var text = $('#phoneInput').val();
           var email = $('#emailInput').val();
           var make = $('#makeInput').val();
-          var year = $('#yearInput').val();
+          var model = $('#modelInput').val();
+          var varient = $('#varientInput').val();
           
-       ref.push({year: year, detail:detail, name: name, text: text, email: email, make: make, });
+       ref.push({model: model, detail:detail, name: name, text: text, email: email, make: make,varient:varient });
             $('#phoneInput').val('');
             $('#nameInput').val('');
             $('#emailInput').val('');
             $('#makeInput').val('');
-            $('#yearInput').val('');
+            $('#modelInput').val('');
+            $('#varientInput').val('');
+
 
         }
-console.log("i am here");
 
+console.log("workign from footer.php");
 </script>
 
 

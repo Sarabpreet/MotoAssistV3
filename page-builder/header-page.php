@@ -8,7 +8,7 @@
                 <li><a  href="sell.php">sell</a></li>
                 <li><a data-scroll href="index.php#services">services</a></li>
                 <li><a data-scroll href="index.php#how">How it works</a></li>
-                <li>call: 9876543210</li>
+                <li class="call">call: 9876543210</li>
               </ul>
             </nav>
           </div>

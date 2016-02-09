@@ -22,26 +22,6 @@
 
 
 
-
-
-         
-
-
-
-
-
-
-<ol>
-  <li>CarMech services your vehicle with OEM recommended oil with the same grade</li>
-  <li>CarMech checks all fluids and tops up where necessary</li>
-  <li>CarMech provides new oil filter as per OEM standards, and cleans air filter (replaced if asked for)</li>
-  <li>CarMech cleans your vehicle inside out without dirtying the surrounding (Spay clean)</li>
-  <li>CarMech inspects mechanicals & body and highlights what needs assistance"</li>
-</ol>
-
-  
-
-
 <h4>Pricing</h4>
 
 
@@ -81,6 +61,26 @@
  
 
     </div>
+
+
+         
+
+
+<h4>Inclusion</h4>
+
+
+
+<ol>
+  <li>CarMech services your vehicle with OEM recommended oil with the same grade</li>
+  <li>CarMech checks all fluids and tops up where necessary</li>
+  <li>CarMech provides new oil filter as per OEM standards, and cleans air filter (replaced if asked for)</li>
+  <li>CarMech cleans your vehicle inside out without dirtying the surrounding (Spay clean)</li>
+  <li>CarMech inspects mechanicals & body and highlights what needs assistance"</li>
+</ol>
+
+  
+
+
 
 
 
