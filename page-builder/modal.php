@@ -5,10 +5,10 @@
           <div class="row">
             <div class="col-lg-push-3 col-lg-11">
               <ul>
-                <li><a href="#">Services</a></li>
+                <li><a href="index.php#services">Services</a></li>
                 <li><a href="#">Cars</a></li>
-                <li><a href="#">Buy</a></li>
-                <li><a href="#">Sell</a></li>
+                <li><a href="buy.php">Buy</a></li>
+                <li><a href="sell.php">Sell</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">Share</a></li>
               </ul>
@@ -22,11 +22,7 @@
       </div>
 <!-- footer ends here -->
 
-
-
-
-
-              <div class="modal modala">
+              <div class="modal modala" id="myModal">
             <div class="close">X</div>
             <div class="container">
                 <div class="row">

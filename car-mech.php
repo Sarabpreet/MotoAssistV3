@@ -26,43 +26,30 @@
 
 
 
-    <ul class="nav nav-tabs">
+    <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Hatchback</th>
+        <th>Sedan</th>
+        <th>SUV / MUV</th>
+        <th>Premium</th>
 
-        <li class="active"><a data-toggle="tab" href="#sectionA">Hatchback</a></li>
-        <li><a data-toggle="tab" href="#sectionB">Sedan</a></li>
-      <li><a data-toggle="tab" href="#sectionC">SUV/MUV</a></li>
-    <li><a data-toggle="tab" href="#sectionD">Premium</a></li>
-    </ul>
+        
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>Rs. 800 onwards </td>
+          <td>Rs. 2250 onwards</td>
+          <td>Rs. 3500 onwards</td>
+          <td> - </td>
+        </tr>
+        
+         
+    </tbody>
+  </table>
 
-    <div class="tab-content">
-
-        <div id="sectionA" class="tab-pane fade in active">
-
-            <p>Rs. 1800 Onwards</p>
-
-        </div>
-
-        <div id="sectionB" class="tab-pane fade">
-
-            <p>Rs. 2200 Onwards</p>
-
-        </div>
-
-         <div id="sectionC" class="tab-pane fade">
-
-          <p>Rs. 3500 Onwards</p>
-        </div>
-               <div id="sectionD" class="tab-pane fade">
-
-            <p>-</p>
-
-        </div>
-
- 
-
-    </div>
-
-
+  
          
 
 

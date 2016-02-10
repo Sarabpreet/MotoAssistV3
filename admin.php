@@ -45,11 +45,11 @@ if(($_POST['username']=='mohit') && $_POST['password']=='motocredr') {
 <table class="table table-striped" id="list">
 	<thead>
 		<tr>
-			<th>Detail</th>
 			<th>Name</th>
-			<th>Phone Number</th>
-			<th>Current Time </th>
+			<th>Mobile</th>
 			<th>Email</th>
+			<th>Current Time </th>
+			<th>Page // Service</th>
 			<th>Make</th>
 			<th>model</th>
 			<th>varient</th>

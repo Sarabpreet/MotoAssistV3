@@ -3,10 +3,10 @@ var ref = new Firebase('https://moto-assist-db.firebaseio.com/MotoAssist');
       
       ref.on('child_added', function(snapshot) {
           var message = snapshot.val();         
-          displayData(message.model,  message.detail, message.name, message.text,message.email, message.make, message.varient);
+          displayData( message.detail, message.name, message.text,message.email, message.make, message.model,  message.varient);
         });
 
-  function displayData(email, detail, name, text, make, varient, model) {
+  function displayData(email, detail, name, text, make, model, varient) {
         //for current date and time     
      var x = new Date()
      var x1=x.getMonth() + "/" + x.getDate() + "/" + x.getYear(); 
@@ -18,7 +18,3 @@ var ref = new Firebase('https://moto-assist-db.firebaseio.com/MotoAssist');
   };
 
 
-
-
-
-console.log("i am there...");

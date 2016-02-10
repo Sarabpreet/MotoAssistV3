@@ -578,34 +578,68 @@ fieldset[disabled] .btn-danger.active {
   font-weight: 00;
 }
 .top-header {
-  background: white;
+background: #084C61;
+
 }
+.top-header a{
+
+  color: white;
+}
+
+
 .top-header a .logo {
-  color: black;
-  font-family: "Helvetica Neue";
-  font-weight: 200;
-  font-size: 30px;
-  padding: 12px 0px;
+  // c
+  // font-family: "Helvetica Neue";
+  // font-weight: 200;
+  // font-size: 30px;
+ 
+
+      font-family: "Gotham Medium";
+      font-size: 24px;
+      color: #1EA4D4;
+      line-height: 18px;
+      margin-top: 24px;
+      color: white;
+
+
+
 }
+.tabo {
+
+
+  margin-left: -10px;
+}
+.nav-tabs {
+border-bottom: 1px solid #DDD;
+margin-bottom: 0px;
+margin-top: 10px;
+}
+
+ul, ol {
+margin-bottom: 10px;
+margin-top: -10px;
+margin-left: -10px;
+}
+
 .top-header nav {
-  padding: 30px 20px 0px 0px;
-  text-align: right;
+    padding: 30px 0px 10px;
+    text-align: right;
 }
 .top-header nav ul li {
   font-family: "Roboto";
   list-style: none;
   display: inline-block;
   padding-right: 10px;
-  margin-right: 40px;
-  font-weight: 500;
+  margin-right: 20px;
+  font-weight: 400;
  
 }
 
 
 .top-header nav ul li a {
   font-size: 18px;
-  color: #555555;
-  line-height: 15px;
+  color:white;
+  line-height: 10px;
   text-transform: uppercase;
 }
 .top-header a:hover {
@@ -867,7 +901,7 @@ fieldset[disabled] .btn-danger.active {
 .description-page p {
   font-size: 14px;
   color: rgba(73, 73, 73, 0.66);
-  line-height: 30.56px;
+  line-height: 24px;
 }
 .content-page {
   padding: 20px;
@@ -1061,12 +1095,28 @@ a:active {
     text-align: center;
 }
 
+h6, .h6 {
+    font-size: 16px;
+}
+.pills{
 
+      background: #F9F9F9;
+    padding: 10px;
+}
+h5, .h5 {
+    font-size: 21px;
+    background: #F9F9F9;
+    padding: 20px;
 
+}
 
+h4, .h4, h5, .h5, h6, .h6 {
+
+  margin:0 5px;
+}
 .call{
 
   text-transform: uppercase;
   font-size: 16px;
-  color:rgba(73, 73, 73, 0.66);
+color:white;
 }

@@ -46,8 +46,8 @@
           var varient = $('#varientInput').val();
           
      if(name!="" && text!="") {
-        ref.push({model: model, detail:detail, name: name, text: text, email: email, make: make,varient:varient });
-        
+        ref.push({detail: detail, name: name, text: text, email: email, make: make,model: model, varient: varient });
+        alert("Sucessfully Sent the data, our representatives will call you within 48 hours!");
         }
 
     else {
@@ -65,7 +65,6 @@ alert("These Fields are required.");
 
         }
 
-console.log("workign from footer.php");
 </script>
 
 

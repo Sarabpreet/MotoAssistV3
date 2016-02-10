@@ -305,8 +305,245 @@
 
     </div>
 
+<hr>
+<h4>Inclusion</h4>
 
 
+
+    <ul class="nav nav-tabs">
+
+        <li class="active"><a data-toggle="tab" href="#silver">Silver</a></li>
+
+        <li><a data-toggle="tab" href="#gold">Gold</a></li>
+      <li><a data-toggle="tab" href="#plat">Platinum</a></li>
+    </ul>
+
+    <div class="tab-content">
+
+        <div id="silver" class="tab-pane fade in active">
+
+            <table class="table table-striped tabo">
+
+    <tbody>
+        <tr>
+         
+          <td>Coverage Scope</td>
+           <td>All India</td>
+           </tr>
+        <tr>
+          <td>Callouts(Free Per Year)</td>
+          <td>05</td>
+          </tr>
+         <tr>
+          <td>Breakdown Support Over Phone</td>
+          <td>yes</td>
+         </tr>
+         <tr>
+            <td>On Site Minor Repairs</td>
+             <td>yes</td>
+         </tr>
+         <tr>
+            <td>Locked key Assistance</td> 
+            <td>yes</td>
+         </tr>
+         <tr>
+            <td>Flat Tyre Assistance</td>
+             <td>yes</td>
+         </tr>
+         <tr>
+            <td>Puncture Assistance</td>
+             <td>yes</td>
+         </tr>
+         <tr>
+            <td>Puncture Cost</td>
+            <td>Payable</td>
+         </tr>
+         <tr>
+            <td>Battery Jump Start</td>
+            <td>yes</td>
+         </tr>
+         <tr>
+            <td>Fuel Delivery</td>
+            <td>UPTO 05 Litres</td>
+         </tr>
+         <tr>
+            <td>Cost of Fuel</td>
+            <td>Payable</td>
+         </tr>
+          <tr>
+            <td>Relay of Urgent Message</td>
+            <td>yes</td>
+         </tr>
+          <tr>
+            <td>MRP</td>
+            <td>Rs 850/- <br>(Incl. of Taxes</td>
+         </tr>
+          <tr>
+            <td>Special Price</td>
+            <td>20% discount on MRP</td>
+         </tr>
+
+        
+    </tbody>
+  </table>
+
+
+        </div>
+
+        <div id="gold" class="tab-pane fade">
+
+      
+  <table class="table table-striped tabo">
+
+    <tbody>
+        <tr>
+         <td>Coverage Scope</td>
+           <td>All India</td>
+           </tr>
+        <tr>
+          <td>Callouts(Free Per Year)</td>
+          <td>05</td>
+          </tr>
+         <tr>
+            <td>Breakdown Support Over Phone</td>
+            <td>yes</td>
+         </tr>
+         <tr>
+            <td>On Site Minor Repairs</td>
+             <td>yes</td>
+         </tr>
+         <tr>
+            <td>Locked key Assistance</td> 
+            <td>yes</td>
+         </tr>
+         <tr>
+            <td>Flat Tyre Assistance</td>
+             <td>yes</td>
+         </tr>
+         <tr>
+            <td>Puncture Assistance</td>
+             <td>yes</td>
+         </tr>
+         <tr>
+            <td>Puncture Cost</td>
+            <td>Payable</td>
+         </tr>
+         <tr>
+            <td>Battery Jump Start</td>
+            <td>yes</td>
+         </tr>
+         <tr>
+            <td>Fuel Delivery</td>
+            <td>UPTO 05 Litres</td>
+         </tr>
+         <tr>
+            <td>Cost of Fuel</td>
+            <td>Payable</td>
+         </tr>
+          <tr>
+            <td>Relay of Urgent Message</td>
+            <td>yes</td>
+         </tr>
+         <tr>
+            <td>Towering Assitance for <br>Mechanical / Electrical <br> Breakdown</td>
+            <td>UPTO 20 KM</td>
+         </tr>
+          <tr>
+            <td>MRP</td>
+            <td>Rs 1250/- <br>(Incl. of Taxes</td>
+         </tr>
+          <tr>
+            <td>Special Price</td>
+            <td>20% discount on MRP</td>
+         </tr>
+
+        
+    </tbody>
+  </table>
+
+        </div>
+
+
+        <div id="plat" class="tab-pane fade">
+
+            
+  <table class="table table-striped tabo">
+
+    <tbody>
+        <tr>
+         
+          <td>Coverage Scope</td>
+           <td>All India</td>
+           </tr>
+        <tr>
+          <td>Callouts(Free Per Year)</td>
+          <td>05</td>
+          </tr>
+         <tr>
+            <td>Breakdown Support Over Phone</td>
+            <td>yes</td>
+         </tr>
+         <tr>
+            <td>On Site Minor Repairs</td>
+             <td>yes</td>
+         </tr>
+         <tr>
+            <td>Locked key Assistance</td> 
+            <td>yes</td>
+         </tr>
+         <tr>
+            <td>Flat Tyre Assistance</td>
+             <td>yes</td>
+         </tr>
+         <tr>
+            <td>Puncture Assistance</td>
+             <td>yes</td>
+         </tr>
+         <tr>
+            <td>Puncture Cost</td>
+            <td>Payable</td>
+         </tr>
+         <tr>
+            <td>Battery Jump Start</td>
+            <td>yes</td>
+         </tr>
+         <tr>
+            <td>Fuel Delivery</td>
+            <td>UPTO 05 Litres</td>
+         </tr>
+         <tr>
+            <td>Cost of Fuel</td>
+            <td>Payable</td>
+         </tr>
+          <tr>
+            <td>Relay of Urgent Message</td>
+            <td>yes</td>
+         </tr>
+         <tr>
+            <td>Towering Assitance for <br>Mechanical / Electrical <br> Breakdown</td>
+            <td>UPTO 20 KM</td>
+         </tr>
+         <tr>
+            <td>Towering Assitance for <br>Accidental cases</td>
+            <td>UPTO 20 KM</td>
+         </tr>
+          <tr>
+            <td>MRP</td>
+            <td>Rs 1750/- <br>(Incl. of Taxes</td>
+         </tr>
+          <tr>
+            <td>Special Price</td>
+            <td>20% discount on MRP</td>
+         </tr>
+
+        
+    </tbody>
+  </table>
+
+        </div>
+
+
+    </div>
 
 
 

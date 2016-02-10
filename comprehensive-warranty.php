@@ -95,8 +95,7 @@
 
 
 <h4>Inclusions</h4>
-<p>Parts covered under this warranty are :   
-</p>
+
 
 
 
@@ -145,6 +144,9 @@ Master cylinder, brake booster and vacuum pump, Wheel cylinder, Wheel bearing. <
 <li> <h6>Air Conditioning :</h6>
 Compressor, condenser, evaporator, AC fan motor. </li>
 <li>
+
+
+
 <h6>Electrical System :</h6>
 
 Engine sensors, starter motor, solenoid switch, alternator, rectifier, regulator, ignition coil, 
@@ -153,7 +155,7 @@ cooling fan motor, thermostat, switch, oil Pressure switch, temperature gauge, f
 
 
 
-
+</ol>
 
 
 
