@@ -1,6 +1,6 @@
 <?php include 'page-builder/header.php';?>
 <?php include 'page-builder/header-page.php';?>
-<?php $title='Buy Sell';?>
+<?php $title='Buy & Sell';?>
 
 
 
@@ -18,7 +18,7 @@
         <div class="col-lg-8 page-content">
           <h4><?php  echo "$title"; ?></h4>
       <p>Buy your dream car at the best possible price. All the cars are throughly inspected and valuated on more than 100+ parameters. When you buy a car from us you are assured of its quality.</p>
-
+<p>Sell your car through MotoAssist at the best rates. We garuntee you the best market price for your car. We will hand hold you through the entire process to make it hassle free for you.</p>
 
 <h4>Why Buy Through Us?</h4>
 <ul>

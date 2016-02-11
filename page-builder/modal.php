@@ -3,21 +3,31 @@
       <div class="container-fluid footer">
         <div class="container">
           <div class="row">
-            <div class="col-lg-push-3 col-lg-11">
+            <div class="col-lg-12">
               <ul>
-                <li><a href="index.php#services">Services</a></li>
+  <!--               <li><a href="index.php#services">Services</a></li>
                 <li><a href="#">Cars</a></li>
                 <li><a href="buy.php">Buy</a></li>
                 <li><a href="sell.php">Sell</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><a href="#">Share</a></li>
+                <li><a href="#">Share</a></li> -->
+
+
+                     <li><a href="roadside-assistance.php">Roadside Assistance</a></li>
+                    <li><a href="comprehensive-warranty.php">Comprehensive Warranty</a></li>
+                    <li><a href="insuarance.php">Insurances</a></li>
+                    <li><a href="loans.php">Loans</a></li>
+                    <li><a href="car-mech.php">CarMech</a></li>
+                    <li><a href="car-services-repair.php">Car Services &amp; Repairs</a></li>
+                    <li><a href="car-detailing.php">Car Detailing</a></li>
+                    <li><a href="inspection-valuation.php">Inspection &amp; Valuation</a></li>
+                    <li><a href="buy-sell.php">Buy &amp; Sell</a></li>
+
+
               </ul>
             </div>
           </div>
-          <div class="row">
-            <div class="col-lg-5">
-            <h3>MottoAssist</h3></div>
-          </div>
+    
         </div>
       </div>
 <!-- footer ends here -->

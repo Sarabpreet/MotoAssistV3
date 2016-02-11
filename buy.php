@@ -21,12 +21,25 @@
 
 
 <h4>Why Buy Through Us?</h4>
+
+
 <ul>
-  <li>100% Inspected cars ensuring quality</li>
-  <li>Best price. You can be assured that the price quoted is the best in the market.</li>
-  <li>Free Road Side Assistance and Warranty when you buy a car through us.</li>
-  <li>Document Transfer Assistance</li>
-  <li>Special discounts on other MotoAssist Services</li>
+  
+
+<li>  100% Inspected cars ensuring quality</li>
+
+ <li> 100% Document Verification to eliminate any wrongdoings</li>
+
+ <li>Best price. You can be assured that the price quoted is the best in the market</li>
+
+ <li>Road Side Assistance and Warranty when you buy a car through us</li>
+
+ <li>Paper Transfer Assistance</li>
+
+ <li>Special discounts on other MotoAssist Services</li>
+
+
+
 </ul>
 
 

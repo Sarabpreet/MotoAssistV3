@@ -7,7 +7,18 @@
       <script src="js/scroll.js"></script>
       <script src="https://cdn.firebase.com/js/client/1.0.21/firebase.js"></script>
       <script type="text/javascript" href="js/custom.js"></script>
+<style>
+  p.small-white{
 
+
+    color:white;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+
+
+</style>
       <script type="text/javascript">
 
 
@@ -39,20 +50,21 @@
 
           var detail = $('#detail').val();
           var name = $('#nameInput').val();
-          var text = $('#phoneInput').val();
+          var phone = $('#phoneInput').val();
           var email = $('#emailInput').val();
           var make = $('#makeInput').val();
           var model = $('#modelInput').val();
-          var varient = $('#varientInput').val();
+          var year = $('#yearInput').val();
+          // var varient = $('#varientInput').val();
           
-     if(name!="" && text!="") {
-        ref.push({detail: detail, name: name, text: text, email: email, make: make,model: model, varient: varient });
+     if(name!="" && phone!="") {
+        ref.push({detail: detail, name: name,   phone: phone, email: email, make: make,model: model, year: year });
         alert("Sucessfully Sent the data, our representatives will call you within 48 hours!");
         }
 
     else {
 
-alert("These Fields are required.");
+alert("Name and Number fields are required.");
 
     }
             $('#phoneInput').val('');
@@ -60,7 +72,8 @@ alert("These Fields are required.");
             $('#emailInput').val('');
             $('#makeInput').val('');
             $('#modelInput').val('');
-            $('#varientInput').val('');
+            $('#yearInput').val('');
+            // $('#varientInput').val('');
 
 
         }

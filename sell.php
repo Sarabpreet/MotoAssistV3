@@ -22,15 +22,24 @@
  
 
 
-<h4>Why Sell Through Us?</h4>
+<h4>Why sell through us?</h4>
 <ul>
 
- 
-<li> Only genuine buyers </li>
-<li> Best price. You can be assured that the price quoted is the best in the market. </li>
-<li> Document Transfer Assistance </li>
-<li> Tips and Advice to help you sell your car fast and help you get the highest offer"
+<li>Only genuine buyers</li>
+
+
+
+ <li>Best price. You can be assured that the price quoted is the best in the market</li>
+
+ <li>PaperTransfer Assistance
 </li>
+ <li>Tips and Advice to help you sell your car fast and help you get the highest offer</li>
+
+ <li>Special discounts on other MotoAssist Services</li>
+
+
+
+ 
 
 
 

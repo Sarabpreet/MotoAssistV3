@@ -23,7 +23,11 @@
 
 
 
-<p>Road Side Assistance provides you repair and towing services in case of a breakdown. With this service you can assured of immediate assistance anywhere on the road. It ensures that your journey is hassle free!</p>
+<p>We provide you minor repairs and towing services in case of on-road
+
+breakdowns. With this service you can be assured of immediate assistance 
+
+anywhere on the road ensuring a hassle free journey!</p>
          
 
 
@@ -236,9 +240,11 @@
 </div>
 
         </div>
-               <div id="sectionD" class="tab-pane fade">
 
-            <div class="accordion" id="accordion2">
+
+
+<div id="sectionD" class="tab-pane fade">
+ <div class="accordion" id="accordion2">
   <div class="accordion-group">
     <div class="accordion-heading">
       <div class="element row">
@@ -292,20 +298,14 @@
     </p>    </div>
   </div>
 </div>
-
-
-
-
-
 </div>
-
-        </div>
+ </div>
 
  
 
     </div>
 
-<hr>
+
 <h4>Inclusion</h4>
 
 
@@ -364,7 +364,7 @@
          </tr>
          <tr>
             <td>Fuel Delivery</td>
-            <td>UPTO 05 Litres</td>
+            <td>Upto 05 Litres</td>
          </tr>
          <tr>
             <td>Cost of Fuel</td>
@@ -374,14 +374,7 @@
             <td>Relay of Urgent Message</td>
             <td>yes</td>
          </tr>
-          <tr>
-            <td>MRP</td>
-            <td>Rs 850/- <br>(Incl. of Taxes</td>
-         </tr>
-          <tr>
-            <td>Special Price</td>
-            <td>20% discount on MRP</td>
-         </tr>
+  
 
         
     </tbody>
@@ -434,7 +427,7 @@
          </tr>
          <tr>
             <td>Fuel Delivery</td>
-            <td>UPTO 05 Litres</td>
+            <td>Upto 05 Litres</td>
          </tr>
          <tr>
             <td>Cost of Fuel</td>
@@ -446,7 +439,7 @@
          </tr>
          <tr>
             <td>Towering Assitance for <br>Mechanical / Electrical <br> Breakdown</td>
-            <td>UPTO 20 KM</td>
+            <td>Upto 20 KM</td>
          </tr>
           <tr>
             <td>MRP</td>
@@ -509,7 +502,7 @@
          </tr>
          <tr>
             <td>Fuel Delivery</td>
-            <td>UPTO 05 Litres</td>
+            <td>Upto 05 Litres</td>
          </tr>
          <tr>
             <td>Cost of Fuel</td>
@@ -521,11 +514,11 @@
          </tr>
          <tr>
             <td>Towering Assitance for <br>Mechanical / Electrical <br> Breakdown</td>
-            <td>UPTO 20 KM</td>
+            <td>Upto 20 KM</td>
          </tr>
          <tr>
             <td>Towering Assitance for <br>Accidental cases</td>
-            <td>UPTO 20 KM</td>
+            <td>Upto 20 KM</td>
          </tr>
           <tr>
             <td>MRP</td>
@@ -543,6 +536,12 @@
         </div>
 
 
+
+
+
+
+
+
     </div>
 
 
@@ -552,6 +551,9 @@
 
 
 <!-- table thing ends here -->
+
+
+<a href="pdf/RSABooklet.pdf" target="_blank"><h4> <span class="glyphicon glyphicon-cloud-download"></span> Download PDF</h4></a>
 </div>
 <?php include 'page-builder/form.php'; ?>
 <!-- row's ending here for main content (page) -->

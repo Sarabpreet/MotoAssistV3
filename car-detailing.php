@@ -105,7 +105,7 @@
 <div id="collapseFive" class="accordion-body collapse">
   <div class="accordion-inner"><p>
 
-  This service provides warranted durable and dependable coating protection for your car paint â€¢ It also includes Rubbing, Wax, Gloss sealing & Tyre shine and Dashboard shine â€¢ You get 2 free services in a year along with a One year Warranty 
+  This service provides warranted durable and dependable coating protection for your car paint It also includes Rubbing, Wax, Gloss sealing & Tyre shine and Dashboard shine â€¢ You get 2 free services in a year along with a One year Warranty 
 
 </p>
 </div>

@@ -3,6 +3,26 @@
 * Copyright 2011-2015 Twitter, Inc.
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
 */
+
+
+.panel-heading {
+  
+  padding:-20px;
+  line-height: 20px;
+}
+.panel-heading .indicator {
+  
+  position: relative;
+  top:-20px;
+}
+
+
+a:hover { 
+text-decoration: none;
+
+}
+
+
 .btn-default,
 .btn-primary,
 .btn-success,
@@ -604,6 +624,21 @@ background: #084C61;
 
 
 }
+
+
+
+
+
+
+
+
+div.accordion-inner p {
+margin-top: 20px;
+color: #4a4a4a;
+
+}
+
+
 .tabo {
 
 
@@ -616,9 +651,7 @@ margin-top: 10px;
 }
 
 ul, ol {
-margin-bottom: 10px;
-margin-top: -10px;
-margin-left: -10px;
+
 }
 
 .top-header nav {
@@ -840,7 +873,7 @@ margin-left: -10px;
 .footer {
   color: #ffffff;
   background: #323031;
-  padding: 60px 0px 400px;
+  padding: 60px 0px 40px;
 }
 .footer h3 {
   margin-top: 60px;
@@ -896,7 +929,7 @@ margin-left: -10px;
 .description-page h4 {
   font-size: 18px;
   color: #4A4A4A;
-  line-height: 52.39px;
+  line-height: 20px;
 }
 .description-page p {
   font-size: 14px;
@@ -911,7 +944,7 @@ margin-left: -10px;
 }
 .element {
   font-size: 14px;
-  color: rgba(73, 73, 73, 0.66);
+color:#333333;
   line-height: 30.56px;
   margin-left: -10px;
   border-bottom: 1px solid #F5F5F5;
@@ -1097,6 +1130,7 @@ a:active {
 
 h6, .h6 {
     font-size: 16px;
+    margin-right: 0px;
 }
 .pills{
 
@@ -1109,14 +1143,52 @@ h5, .h5 {
     padding: 20px;
 
 }
+.footer {
+  
+  text-align: center;
+}
+
+.footer ul li {
+  
+ margin:10px;
+  
+}
 
 h4, .h4, h5, .h5, h6, .h6 {
-
-  margin:0 5px;
+margin: 20px 0px;
 }
 .call{
 
   text-transform: uppercase;
   font-size: 16px;
 color:white;
+}
+
+.item img {
+
+
+  border-radius: 10px;
+
+border: 5px solid #ffffff;
+
+box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+
+
+}
+
+table tr {
+  
+  text-transform: capitalize;
+}
+
+.accordion {
+
+padding-top: 10px;
+
+}
+
+.accordion-toggle h4 {
+
+
+  margin:4px;
 }

@@ -22,6 +22,10 @@
 
 
 
+
+
+
+
 <h4>Pricing</h4>
 
 
@@ -51,9 +55,24 @@
 
   
          
+         
 
 
-<h4>Inclusion</h4>
+
+
+            <div class="panel-group" id="accordion">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                 
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                   <h4>Inclusion</h4>
+                 </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+                 
+               </div>
+               <div id="collapseOne" class="panel-collapse collapse">
+                <div class="panel-body">
+                 
+
 
 
 
@@ -72,7 +91,35 @@
 
 
 
-<h4>Terms and Condition</h4>
+                          </div>
+                        </div>
+                      </div>
+
+
+                    </div>
+
+
+
+
+
+
+
+
+
+            <div class="panel-group" id="accordion">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                 
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne1">
+                   <h4>Terms and Conditions</h4>
+                 </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+                 
+               </div>
+               <div id="collapseOne1" class="panel-collapse collapse">
+                <div class="panel-body">
+                 
+
+
 
 
 
@@ -88,6 +135,24 @@
   <li>CarMech does not replace worn out parts like brake pads, engine belts, etc.</li>
   <li>CarMech cannot be quoted for time guarantee if the car is not handed over on time"</li>
 </ol>
+
+
+
+
+
+
+
+
+
+                          </div>
+                        </div>
+                      </div>
+
+
+                    </div>
+
+
+
 
 
 
