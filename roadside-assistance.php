@@ -249,7 +249,7 @@ anywhere on the road ensuring a hassle free journey!</p>
     <div class="accordion-heading">
       <div class="element row">
         <div class="col-lg-8">Silver</div>
-        <div class="col-lg-3">- </div>
+        <div class="col-lg-3">N.A</div>
         <div class="col-lg-1">  
         </div>
       </div>
@@ -266,7 +266,7 @@ anywhere on the road ensuring a hassle free journey!</p>
   <div class="accordion-heading">
     <div class="element row">
       <div class="col-lg-8">Gold</div>
-      <div class="col-lg-3">- </div>
+      <div class="col-lg-3">N.A</div>
       <div class="col-lg-1">  
       </div>
     </div>
@@ -306,7 +306,18 @@ anywhere on the road ensuring a hassle free journey!</p>
     </div>
 
 
-<h4>Inclusion</h4>
+           <div class="panel-group" id="accordion">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                 
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                   <h4>Inclusion</h4>
+                 </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+                 
+               </div>
+               <div id="collapseOne" class="panel-collapse collapse">
+                <div class="panel-body">
+                 
 
 
 
@@ -543,6 +554,23 @@ anywhere on the road ensuring a hassle free journey!</p>
 
 
     </div>
+
+
+<!-- some comtent would go here -->
+
+
+
+
+                          </div>
+                        </div>
+                      </div>
+
+
+                    </div>
+
+
+
+
 
 
 

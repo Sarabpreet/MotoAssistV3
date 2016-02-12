@@ -453,8 +453,8 @@ This service includes Door Hinges greasing, Battery terminal protector and Plast
         </div>
 
         <div id="suv" class="tab-pane fade">
-          <div class="accordion" id="accordion2">
-            <div class="accordion-group">
+          <div class="accordion " id="accordion2">
+            <div class="accordion-group hide">
               <div class="accordion-heading">
                 <div class="element row"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse21">
                   <div class="col-lg-8">Interior Cleaning</div>
@@ -463,12 +463,16 @@ This service includes Door Hinges greasing, Battery terminal protector and Plast
                 </div>
               </div>
             </div>
+
+
             <div id="collapse21" class="accordion-body collapse">
               <div class="accordion-inner"><p>With interior cleaning service, we provide with complete vacuum cleaning for your car interiors. It not only helps you keep your car clean from the inside but also removes any germs, fungus and dirt which may cause health issues.
 
           </p>
             </div>
           </div>
+
+
         </div>
         <!-- slide two -->
         <div class="accordion-group">
@@ -482,13 +486,14 @@ This service includes Door Hinges greasing, Battery terminal protector and Plast
         </div>
         <div id="collapse22" class="accordion-body collapse">
           <div class="accordion-inner"><p>
-
-
-
           In this service we provide you with specialized vacuum cleaning of your car interiors with foam. It is a deep cleaning method which helps clean your car seats and floors and remove all dirt even from the most corner places. It acts as a disinfectant and keeps your car hygienic. </p>
           </div>
       </div>
     </div>
+
+
+
+    
     <div class="accordion-group">
       <div class="accordion-heading">
         <div class="element row"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse23">
@@ -660,7 +665,7 @@ This service includes Door Hinges greasing, Battery terminal protector and Plast
 
 
           <div class="accordion" id="accordion2">
-            <div class="accordion-group">
+            <div class="accordion-group hide">
               <div class="accordion-heading">
                 <div class="element row"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse31">
                   <div class="col-lg-8">Interior Cleaning</div>
@@ -695,7 +700,7 @@ This service includes Door Hinges greasing, Battery terminal protector and Plast
           </div>
       </div>
     </div>
-    <div class="accordion-group">
+    <div class="accordion-group hide">
       <div class="accordion-heading">
         <div class="element row">  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse33">
           <div class="col-lg-8">Paint Restoration</div>
@@ -713,7 +718,7 @@ This service includes Door Hinges greasing, Battery terminal protector and Plast
       </p>    </div>
   </div>
 </div>
-<div class="accordion-group">
+    <div class="accordion-group hide">
   <div class="accordion-heading">
     <div class="element row"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse34">
       <div class="col-lg-8">Polymer/Teflon Coating</div>
@@ -748,7 +753,7 @@ This service includes Door Hinges greasing, Battery terminal protector and Plast
 </div>
 </div>
 </div>
-<div class="accordion-group">
+    <div class="accordion-group hide">
 <div class="accordion-heading">
 <div class="element row"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse36">
 <div class="col-lg-8">A/c disinfection treatment</div>
@@ -771,7 +776,7 @@ Disinfects your carâ€™s interiors, kills germs &amp; bacteria in your AC
 </div>
 </div>
 </div>
-<div class="accordion-group">
+    <div class="accordion-group hide">
 <div class="accordion-heading">
 <div class="element row"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse37">
 <div class="col-lg-8">Glass polishing</div>
@@ -791,7 +796,7 @@ Disinfects your carâ€™s interiors, kills germs &amp; bacteria in your AC
 </div>
 </div>
 
-<div class="accordion-group">
+    <div class="accordion-group hide">
   <div class="accordion-heading">
     <div class="element row"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse38">
       <div class="col-lg-8">Wax Polishing</div>
@@ -808,7 +813,7 @@ Disinfects your carâ€™s interiors, kills germs &amp; bacteria in your AC
 </p>
 </div>
 </div>
-</div><div class="accordion-group">
+</div>    <div class="accordion-group hide">
   <div class="accordion-heading">
     <div class="element row"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse39">
       <div class="col-lg-8">Dry Wash</div>
@@ -827,7 +832,7 @@ Disinfects your carâ€™s interiors, kills germs &amp; bacteria in your AC
 </div>
 </div>
 
-<div class="accordion-group">
+    <div class="accordion-group hide">
 <div class="accordion-heading">
 <div class="element row"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse40">
 <div class="col-lg-8">Service plus treatment</div>

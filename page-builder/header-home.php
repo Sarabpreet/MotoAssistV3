@@ -15,7 +15,7 @@
         </div>
         <!-- Top header closes here (block inside header) -->
         <h1>All your four-wheeler wishes under one roof.</h1>
-        <h2>Pick a service - Fix a meeting - And it's done -</h2>
+        <h2>Pick a service - Fix a meeting - And it's done</h2>
         <div class="button-home ">
           
           <ul class='row compress'>

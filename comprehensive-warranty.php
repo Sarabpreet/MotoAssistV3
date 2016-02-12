@@ -49,7 +49,7 @@
                   <td>Rs. 4300</td>
                   <td>Rs. 5000</td>
                   <td>Rs. 5500</td>
-                  <td>Rs. - </td>
+                  <td>N.A </td>
                 </tr>
                 
               </tbody>

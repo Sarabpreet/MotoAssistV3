@@ -43,10 +43,10 @@
     </thead>
     <tbody>
         <tr>
-          <td>Rs. 800 onwards </td>
+          <td>Rs. 1800 onwards </td>
           <td>Rs. 2250 onwards</td>
           <td>Rs. 3500 onwards</td>
-          <td> - </td>
+          <td> N.A </td>
         </tr>
         
          

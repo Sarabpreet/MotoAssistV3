@@ -8,8 +8,8 @@
                     <input id='nameInput' type="text"  placeholder='Name *'>
                     <input id='phoneInput' type="text"  placeholder='Phone Number *'>
                     <input id='emailInput' type="text" placeholder='Email'>
-                    <input id='makeInput' type="text" placeholder='Make (Honda, Maruti, etc)'>
-                    <input id='modelInput' type="text" placeholder='Model (City, Scorpio, etc)'>
+                    <input id='makeInput' type="text" placeholder='Eg (Honda, Maruti, etc)'>
+                    <input id='modelInput' type="text" placeholder='Eg (City, Scorpio, etc)'>
                     <input id='yearInput' type="text" placeholder='Year'>
                     
                      <p class="small-white">* Compulsory Fields</p>

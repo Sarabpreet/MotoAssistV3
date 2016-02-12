@@ -29,16 +29,7 @@ available to choose from like Nil Depreciation, Voluntary Access, Passenger Cove
 
 Cover, etc. We bring you the best deals from various insurance companies to choose from.</p>
            
-            <h4 class="text-center pills">How it works?</h4>
-
-<h4>
-In case of New / Renewal policy </h4>
-
-<p>    We will mail the quotations of different Insurance providers to the customer. o Customer will select the quotation and make the payment online. o We will mail & send the hard copy of the policy to the customer. </p>   
-
-<h4>   In case of Breaking (i.e. previous policy expired) </h4> 
-<p>We will mail the quotations to the customer. o Customer will select the quotation and make the payment online. o We will ask the customer to provide the scan of RC & Previous Policy.  Copy of Form 29/30 (In case of change in ownership of vehicle) o We will schedule the survey of the vehicle. o Surveyor will visit the customer and inspect the vehicle. o If found Ok, will mail & send the hard copy of the policy to the customer.
-</p>
+   
 
 
 
