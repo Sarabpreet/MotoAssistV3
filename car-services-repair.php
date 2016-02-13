@@ -22,7 +22,7 @@
         <div class="col-lg-8 page-content">
           <h4><?php  echo "$title"; ?></h4>
 
-<p>We will take care of all your car major service & repair needs.
+<p>We will take care of all your car major service &amp; repair needs.
 
 All our workshops have state-of-art equipments, certified technicians and engineers.
 
@@ -111,8 +111,8 @@ For most of the services we offer same day delivery</p>
                 <div class="panel-heading">
                  
                   <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                 <h4>Inclusions</h4>
-                 </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+                 <h4>Inclusions</h4><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+                 </a>
                  
                </div>
                <div id="collapseOne" class="panel-collapse collapse">
@@ -127,7 +127,7 @@ For most of the services we offer same day delivery</p>
 
             
      <ol>
-        <li>All filter change labour charge</li>
+        <li>Air filter change labour charge</li>
         <li>Oil change labour charge</li>
         <li>General Check-up &amp; minor replacement labor charge</li>
         <li>All fluid top-up (brake oil, clutch oil, coolant, transmission oil, windshield washer etc.</li>

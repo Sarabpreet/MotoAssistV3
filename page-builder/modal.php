@@ -3,8 +3,11 @@
       <div class="container-fluid footer">
         <div class="container">
           <div class="row">
-            <div class="col-lg-12">
-              <ul>
+            <div class="col-lg-6 col-md-6 col-xs-12">
+
+<h4 class="text-left">Services</h4>
+
+                          <ul>
   <!--               <li><a href="index.php#services">Services</a></li>
                 <li><a href="#">Cars</a></li>
                 <li><a href="buy.php">Buy</a></li>
@@ -26,6 +29,41 @@
 
               </ul>
             </div>
+
+
+
+
+
+
+     <div class="col-lg-6 col-md-6 col-xs-12 contact-module"> 
+
+
+
+<h4>Contact</h4>
+
+
+
+
+
+
+<h5>Give Us a Call On</h5>
+<p>+91 7506785676</p>
+
+<h5>For any query please contact us at</h5>
+<p>info@motoassist.in</p>
+
+<h5>For any sales related query please contact us at</h5>
+<p>sales@motoassist.in</p>
+
+
+
+     </div>
+
+
+
+
+
+
           </div>
     
         </div>

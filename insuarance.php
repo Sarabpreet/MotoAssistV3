@@ -38,8 +38,8 @@ Cover, etc. We bring you the best deals from various insurance companies to choo
                 <div class="panel-heading">
                  
                   <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                   <h4>Documentation Required</h4>
-                 </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+                   <h4>Documentation Required</h4><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+                 </a>
                  
                </div>
                <div id="collapseOne" class="panel-collapse collapse">

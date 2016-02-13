@@ -65,8 +65,8 @@
                 <div class="panel-heading">
                  
                   <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                   <h4>Inclusion</h4>
-                 </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+                   <h4>Inclusion</h4><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+                 </a>
                  
                </div>
                <div id="collapseOne" class="panel-collapse collapse">
@@ -111,8 +111,8 @@
                 <div class="panel-heading">
                  
                   <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne1">
-                   <h4>Terms and Conditions</h4>
-                 </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+                   <h4>Terms and Conditions</h4><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+                 </a>
                  
                </div>
                <div id="collapseOne1" class="panel-collapse collapse">
@@ -133,7 +133,7 @@
   <li>CarMech accepts payment in cash, only</li>
   <li>CarMech will not drive the car for more than 1 km within your vicinity to find a safe service spot</li>
   <li>CarMech does not replace worn out parts like brake pads, engine belts, etc.</li>
-  <li>CarMech cannot be quoted for time guarantee if the car is not handed over on time"</li>
+  <li>CarMech cannot be quoted for time guarantee if the car is not handed over on time</li>
 </ol>
 
 

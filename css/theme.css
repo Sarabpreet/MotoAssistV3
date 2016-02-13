@@ -4,6 +4,14 @@
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
 */
 
+.credits {
+  
+  
+  text-align: center;
+  padding:10px;
+  color:white;
+  background:black;
+}
 .panel-group {
   
   margin-top: 20px;
@@ -609,7 +617,11 @@ background: #084C61;
 
   color: white; 
 }
+.btw ul li {
+-webkit-box-shadow: 0 3px 0 0 #141211;
+box-shadow: 0 3px 0 0 #141211;
 
+}
 
 .top-header a .logo {
   // c
@@ -697,8 +709,14 @@ ul, ol {
 .header ul.button-home li a:hover {
   text-decoration: none;
 }
+
+.width {
+
+
+width: 60%;
+}
 .compress {
-  width: 60%;
+
   background: green;
   margin: 80px auto 65px;
   background: url("../img/opacity.png");
@@ -1191,4 +1209,41 @@ padding-top: 10px;
 
 
   margin:4px;
+}
+
+.contact-module {
+  
+  text-align: left;
+}
+.contact-module h5 {
+  font-weight: 100;
+  background:none;
+  font-size:18px;
+  margin:20px 0px;
+  padding: 0px;
+}
+
+.footer h4 {
+  
+font-size: 24px;
+}
+
+.footer p {
+  
+  font-size: 14px;
+  padding:0px 5px;
+}
+.footer ul {
+
+  margin-left: -50px;
+}
+.footer ul li {
+ font-size: 14px;
+  display: list-item;
+  text-align: left;
+}
+
+.button-home .btw li a{
+-webkit-box-shadow: 0 10px 0 0 #821414;
+box-shadow: 0 10px 0 0 #821414;
 }
